@@ -1,5 +1,5 @@
 <footer>
- <a href=‛http://www.RentalBuku.com‛><center>Copyright © 2023 RentalBuku.com</center></a>
+ <a href=‛http://www.RentalBuku.com‛><center>Kelompok 3</center></a>
  </footer>
 </div>
 </body>
