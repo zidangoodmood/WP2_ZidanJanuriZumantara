@@ -16,25 +16,59 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Kode MTK</th>
+                    <th>Nama Lengkap</th>
                     <th>:</th>
-                    <td>
-                        <?= $kode; ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Nama MTK</td>
-                    <td>:
-                    </td>
                     <td>
                         <?= $nama; ?>
                     </td>
                 </tr>
                 <tr>
-                    <td>SKS</td>
+                    <th>NIS</th>
+                    <th>:</th>
+                    <td>
+                        <?= $nis; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Kelas</th>
+                    <th>:</th>
+                    <td>
+                        <?= $kelas; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Tanggal Lahir</th>
+                    <th>:</th>
+                    <td>
+                        <?= $tanggal; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Tempat Lahir</th>
+                    <th>:</th>
+                    <td>
+                        <?= $tempat; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Alamat</th>
+                    <th>:</th>
+                    <td>
+                        <?= $alamat; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Jenis Kelamin</b></td>
                     <td>:</td>
                     <td>
-                        <?= $sks; ?>
+                        <?= $jenis; ?>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Agama</th>
+                    <th>:</th>
+                    <td>
+                        <?= $agama; ?>
                     </td>
                 </tr>
                 <tr>
