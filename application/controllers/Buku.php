@@ -216,9 +216,7 @@ class Buku extends CI_Controller
         $data['kategori'] = $this->ModelBuku->kategoriWhere(['id' => $this->uri->segment(3)])->result_array();
 
 
-        $this->form_validation->set_rules('kategori', 'Nama Kategori', 'required|min_length[3]', [
-            'required' => 'Nama Kategori harus diisi',
-            'min_length' => 'Nama Kategori terlalu pendek'
+        $this->form_validation->set_rules('kategori', 'Nama Kategori', 'required|min_length[3]', ['required' => 'Nama Kategori harus diisi', 'min_length' => 'Nama Kategori terlalu pendek'
         ]);
 
         if ($this->form_validation->run() == false) {
@@ -231,7 +229,7 @@ class Buku extends CI_Controller
 
             $data = [
                 'kategori' => $this->input->post('kategori', true)
-            ];
+            ];  
 
             $this->ModelBuku->updateKategori(['id' => $this->input->post('id')], $data);
             redirect('buku/kategori');

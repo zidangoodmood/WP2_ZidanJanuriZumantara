@@ -15,9 +15,12 @@
                                     <h1 class="h4 text-gray-900 mb-4">Anda Lupa Password?</h1>
                                 </div>
                                 <?= $this->session->flashdata('pesan'); ?>
-                                <form class="user" method="post" action="<?= base_url('autentifikasi/lupaPassword'); ?>">
+                                <form class="user" method="post"
+                                    action="<?= base_url('autentifikasi/lupaPassword'); ?>">
                                     <div class="form-group">
-                                        <input type="text" class="form-control form-control-user" value="<?= set_value('email'); ?>" id="email" placeholder="Masukkan Alamat Email" name="email">
+                                        <input type="text" class="form-control form-control-user"
+                                            value="<?= set_value('email'); ?>" id="email"
+                                            placeholder="Masukkan Alamat Email" name="email">
                                         <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-user btn-block">
@@ -29,7 +32,8 @@
                                     <a class="small" href="<?= base_url(); ?>">Masuk? </a>
                                 </div>
                                 <div class="text-center">
-                                    Belum Memiliki Akun?<a class="small" href="<?= base_url('autentifikasi/registrasi'); ?>"> Daftar!</a>
+                                    Belum Memiliki Akun?<a class="small"
+                                        href="<?= base_url('autentifikasi/registrasi'); ?>"> Daftar!</a>
                                 </div>
                             </div>
                         </div>
